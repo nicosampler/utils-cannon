@@ -6,5 +6,6 @@ description = "weth example by bootnode"
 artifact = "WETH"
 
 [invoke.deposit]
+target = "WETH"
 function = "deposit"
 args = [10000000000000000]
