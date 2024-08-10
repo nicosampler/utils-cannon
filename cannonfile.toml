@@ -9,4 +9,4 @@ artifact = "WETH"
 target = ["WETH"]
 function = "deposit"
 args = []
-value = 10000000000000000
+value = "10000000000000000"
