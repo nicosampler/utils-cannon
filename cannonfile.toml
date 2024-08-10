@@ -8,4 +8,4 @@ artifact = "WETH"
 [invoke.deposit]
 target = ["WETH"]
 function = "deposit"
-args = [10000000000000000]
+value = 10000000000000000
