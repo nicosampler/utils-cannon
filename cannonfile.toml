@@ -5,6 +5,9 @@ description = "weth example by bootnode"
 [deploy.weth]
 artifact = "WETH"
 
+[contract.weth]
+artifact = "WETH"
+
 [invoke.deposit]
 target = ["WETH"]
 function = "deposit"
