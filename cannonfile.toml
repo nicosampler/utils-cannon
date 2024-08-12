@@ -5,10 +5,8 @@ description = "weth example by bootnode"
 [deploy.weth]
 artifact = "WETH"
 
-[contract.WETH]
-artifact = "WETH"
-
 [invoke.deposit]
 target = ["WETH"]
 func = "deposit"
+args = []
 value = "10000000000000000"
