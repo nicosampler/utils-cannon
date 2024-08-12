@@ -1,5 +1,5 @@
-name = "nicosampler-weth"
-version = "0.3"
+name = "nicosampler"
+version = "0.0.1"
 description = "weth example by bootnode"
 
 [deploy.weth]
