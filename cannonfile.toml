@@ -1,11 +1,7 @@
 name = "nicosampler"
 version = "0.0.3"
 description = "weth example by bootnode"
+preset = "test1"
 
 [deploy.weth]
 artifact = "WETH"
-
-[invoke.deposit]
-target = ["weth"]
-func = "deposit"
-value = "10000000"
