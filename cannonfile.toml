@@ -4,3 +4,8 @@ description = "weth example by bootnode"
 
 [deploy.weth]
 artifact = "WETH"
+
+[invoke.deposit]
+target = ["weth"]
+func = "deposit"
+value = "18"
