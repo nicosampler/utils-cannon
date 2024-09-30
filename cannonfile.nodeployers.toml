@@ -1,6 +1,6 @@
 name = "nicosampler"
 version = "0.0.3"
-description = "weth example by bootnode"
+description = "weth example"
 
 [deploy.weth]
 artifact = "WETH"
