@@ -1,6 +1,7 @@
 name = "nicosampler"
 version = "0.0.1"
 preset = "mintable"
+deployers = ["0x8B15121E7a61c621520bF169D37759d8a0276246"]
 
 [var.owner]
 defaultValue = "0x8B15121E7a61c621520bF169D37759d8a0276246"
