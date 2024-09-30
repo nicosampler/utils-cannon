@@ -11,7 +11,7 @@ defaultValue = "salt-nico-1"
 
 [clone.MintableToken]
 source = "mintable-token"
-target = "nicosampler@MintableToken"
+target = "owned-greeter-saeta@MintableToken"
 options.decimals = "18"
 options.initialSupply = "10000"
 options.name = "Token"
