@@ -1,0 +1,18 @@
+name = "nicosampler"
+version = "0.0.1"
+preset = "mintable"
+
+[var.owner]
+defaultValue = "0x8B15121E7a61c621520bF169D37759d8a0276246"
+
+[var.salt]
+defaultValue = "salt-nico-1"
+
+[clone.MintableToken]
+source = "mintable-token"
+target = "nicosampler@MintableToken"
+options.decimals = "18"
+options.initialSupply = "10000"
+options.name = "Token"
+options.owner = "<%= settings.owner %>"
+options.salt = "<%= settings.salt %>"
