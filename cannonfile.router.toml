@@ -1,4 +1,4 @@
-name = "owned-greeter"
+name = "nicosampler"
 version = "0.0.1"
 preset = "router"
 deployers = [
