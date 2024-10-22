@@ -1,0 +1,18 @@
+name = "owned-greeter"
+version = "0.0.1"
+preset = "router"
+deployers = [
+  "0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385"
+]
+
+[clone.greeter]
+source = "owned-greeter"
+
+[router.Router]
+contracts = [ "greeter.Greeter" ]
+
+[invoke.setGreeting]
+target = [ "Router" ]
+from = "0x89F1bFb875768B13d076F854F915c1B908715AE1"
+func = "setGreeting"
+args = [ "router hello" ]
