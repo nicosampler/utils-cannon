@@ -9,4 +9,4 @@ artifact = "WETH"
 [invoke.deposit]
 target = ["weth"]
 func = "deposit"
-value = "18"
+value = "1000000000000000"
