@@ -1,4 +1,4 @@
-name = "nicosampler-weth"
+name = "nicosampler"
 version = "0.0.1"
 preset = "refactor"
 description = "weth example"
