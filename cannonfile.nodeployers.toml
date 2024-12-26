@@ -1,5 +1,5 @@
 name = "nicosampler"
-version = "0.0.4"
+version = "0.0.3"
 description = "weth example"
 
 [deploy.weth]
@@ -9,3 +9,8 @@ artifact = "WETH"
 target = ["weth"]
 func = "deposit"
 value = "18"
+
+[invoke.transfer]
+target = ["weth"]
+func = "transfer"
+args = ["0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385", "10000000000"]
