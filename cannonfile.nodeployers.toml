@@ -1,5 +1,6 @@
 name = "nicosampler"
-version = "0.0.3"
+version = "0.0.4"
+preset = "refactor"
 description = "weth example"
 
 [deploy.weth]
