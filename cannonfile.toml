@@ -1,8 +1,8 @@
 name = "nicosampler"
 version = "0.0.1"
-preset = "refactor"
+preset = "weth"
 description = "weth example"
-deployers = ["0x8B15121E7a61c621520bF169D37759d8a0276246", "0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385"]
+deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385"]
 
 [deploy.weth]
 artifact = "WETH"
@@ -10,4 +10,6 @@ artifact = "WETH"
 [invoke.deposit]
 target = ["weth"]
 func = "deposit"
-value = "1000000000000000"
+from = "0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385"
+value = "100000"
+

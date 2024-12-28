@@ -12,10 +12,10 @@ description = "Safe owners, comma separated"
 [clone.mySafeImpl]
 source = "safe-impl:1.4.1@main"
 target = "safe-impl:1.4.1@main"
-var.salt = "<%= settings.salt %>"
+options.salt = "0x0000000000000000000000000000000000000000000000000000000000000001"
 
 [clone.mySafe]
 depends = ["clone.mySafeImpl"]
 source = "safe:1.4.1@main"
-var.salt = "<%= settings.salt %>"
-var.owners = "<%= settings.owners %>"
+var.salt = "0x0000000000000000000000000000000000000000000000000000000000000001"
+var.owners = "0x9cf2288d8FA37051970AeBa88E8b4Fb5960c2385"
