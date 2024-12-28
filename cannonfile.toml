@@ -17,3 +17,9 @@ value = "100"
 target = ["weth"]
 func = "transfer"
 args = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "100"]
+
+[invoke.transfer2]
+target = ["weth"]
+func = "transfer"
+from = "0x88E9fa18C121512A894f64C105b2638F38Ff9194"
+args = ["0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9", "1"]
