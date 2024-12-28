@@ -10,6 +10,10 @@ artifact = "WETH"
 [invoke.deposit]
 target = ["weth"]
 func = "deposit"
-from = "0x88E9fa18C121512A894f64C105b2638F38Ff9194"
+from = "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"
 value = "100"
 
+[invoke.transfer]
+target = ["weth"]
+func = "transfer"
+args = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "100"]
