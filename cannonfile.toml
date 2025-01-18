@@ -24,7 +24,7 @@ func = "transfer"
 from = "0x88E9fa18C121512A894f64C105b2638F38Ff9194"
 args = ["0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9", "1"]
 
-[invoke.transfer2]
+[invoke.transfer3]
 target = ["weth"]
 func = "transfer"
 from = "0x88E9fa18C121512A894f64C105b2638F38Ff9194"
