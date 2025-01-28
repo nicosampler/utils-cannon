@@ -3,7 +3,7 @@ version = "0.0.1"
 preset = "owned-greeter"
 description = "Simple greeter project that can be owned"
 keywords = ["sample", "greeter", "owned"]
-deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"]preset = "clone"
+deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"]
 
 [clone.greeter]
 source = "owned-greeter:latest@main"
