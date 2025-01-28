@@ -1,9 +1,9 @@
-name = "owned-greeter"
+name = "nicosampler"
 version = "0.0.1"
+preset = "owned-greeter"
 description = "Simple greeter project that can be owned"
 keywords = ["sample", "greeter", "owned"]
-deployers = ["0x7f28058F0b989430C7397782F797e300CDc10042", "0x3852C9fdc6a5C0A4A6230c1d2d954ccCB9b90465"]
-preset = "clone"
+deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"]preset = "clone"
 
 [clone.greeter]
 source = "owned-greeter:latest@main"
