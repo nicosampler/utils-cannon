@@ -2,7 +2,7 @@ name = "nicosampler"
 version = "0.0.2"
 preset = "weth-2"
 description = "weth example"
-# deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"]
+deployers = ["0x88E9fa18C121512A894f64C105b2638F38Ff9194", "0xdfbAa994219c6CC7e30a57d26Be5dfAc359c9fB9"]
 
 [deploy.weth]
 artifact = "WETH"
